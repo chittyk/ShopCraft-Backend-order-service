@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8083
 
 # 7️⃣ Start the application
-CMD ["node", "server.js"]
+CMD ["npm", "run", "dev"]
